@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>厚德自然農場</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap-4.0.0.css">
+    <link rel="stylesheet" href="img/homebg1.png" rel="preload" as="image">
+    <link rel="stylesheet" href="img/homebg2.png" rel="preload" as="image">
+    <link rel="stylesheet" href="img/homebg3.png" rel="preload" as="image">
+    <link rel="stylesheet" href="img/homebg4.png" rel="preload" as="image">
+</head>
+<body>
+    <button type="button" class="btn flex-center" id="menubtn">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+    <nav id="menu">
+        <ul>
+            <li><a data-text="HOME" href="#home">首頁　　</a></li>
+            <li><a data-text="ABOUT" href="#about">關於我們</a></li>
+            <li><a data-text="EVENT" href="#event">精彩活動</a></li>
+            <li><a data-text="SHOP" href="#shop">商品一覽</a></li>
+            <li><a data-text="CONTACT" href="#contact">聯絡我們</a></li>
+            <li><a class=" login" data-text="log in" href="#login">會員登入</a></li>
+            <li><a id="shopcart" data-text="CART" href="#cart">購物車　</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <div class="container_fluid h-100">
+            <div class="row h-100">
+                <div class="col-md-3 grid-right">
+                    <div class="page">
+                        <p>/04</p>
+                    </div>
+                </div>
+                <div class="col-md-6 grid-center">
+                    <div class="title flex-center">
+                        <img id="home-title" src="img/home-title.png" alt="">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="col-md-3 grid-left">
+                    <div class="slogan">
+                        <ul>
+                            <li>農業是培育動植物的產業</li>
+                            <li>自然生態緊緊相扣 萬物生生不息</li>
+                            <li>台灣農業永續發展</li>
+                            <li>小農經濟開創新高度</li>
+                            <button type="button" class="btn" id="scroll"><a href="#about">read more</a></button>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </section>
+    <section id="about">
+        <div class="container_fluid h-100">
+            <img src="img/about-title2.png" id="ab-title" alt="">
+            <div class="row h-100" id="ab-main">
+                <div class="col-lg-4 flex-center">
+                    <div class="about-box flex-center">
+                        <span>01</span>
+                        <h2>命名由來</h2>
+                        <p>取自易經『厚德載物』啟發，要求自己在種植的品德上，如大地之深厚，讓人們吃的放心。<br> 英文 HODER 諧音，齁得…住，讓支持厚德自然農場的朋友們，在吃的方面
+                            可以健康又安心，將食安品質交給我們把關，我們 HODER 住。</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 flex-center">
+                    <div class="about-box box2 flex-center">
+                        <span>02</span>
+                        <h2>關於我們</h2>
+                        <p>「厚德自然農場」由一位熱血青農所經營，因為喜歡大自然而從事農業。目標是建立一個無毒無農藥的自然農場，生產出安心的食物來回饋支持厚德小農的
+                            朋友們。</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 flex-center">
+                    <div class="about-box flex-center">
+                        <span>03</span>
+                        <h2>我們的理想</h2>
+                        <p>不使用農藥及除草劑，以避免有任何化學物質殘留，為台灣農業永續發展盡一份心力，期許自己希望能夠種植出好的食物外還能夠幫助更多的農民推廣最健康好吃的產品，來回饋支持厚德小農的朋友們。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="event">
+        <div class="container_fluid h-100">
+            <div class="row event-row">
+                <div class="col-md-6 grid-right">
+                    <div class="event-box box-right" href="#evnt1">
+                        <img src="img/event-pic1.jpg" alt="">
+                    </div>
+                    <div class="checkbox">
+                        <h2>Check!</h2>
+                        <p>01水果摘摘樂</p>
+                    </div>
+                </div>
+                <div class="col-md-6 grid-left">
+                    <div class="event-box box-left flex-center" href="#evnt1">
+                        <h3>水果摘摘樂</h3>
+                        <p>學習摘採水果與包裝，跟著果農體驗產銷的過程，活動結束後，可帶回...<a href="#">查看更多</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row event-row">
+                <div class="col-md-4 grid-right">
+                    <div class="event-box flex-center" href="#evnt2">
+                        <h3>牛牛農場</h3>
+                        <p>厚德農場在取之自然、順乎自然的開發原則下，盡其所能的保持原地形地貌...<a href="#">查看更多</a></p>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 grid-center">
+                    <div class="event-join flex-center" id="evnt1">
+                        <h3>水果摘摘樂</h3>
+                        <p>學習摘採水果與包裝，跟著果農體驗產銷的過程，活動結束後，可帶回自己摘採的水果。是適合全家的遊玩的活動，體驗與趣味兼具。</p>
+                        <button type="button" class="btn">活動報名</button>
+                    </div>
+
+                    <div class="event-join flex-center" id="evnt3">
+                        <h3>農民一日體驗</h3>
+                        <p>土地是我們的母親，學習與自然共生，堅持不用除草劑，降低土地的汙染，體驗自給自足的生活與耕作，愛護土地也讓大家吃的更健康。</p>
+                        <button type="button" class="btn">活動報名</button>
+                    </div>
+                    
+                    <div class="event-join flex-center" id="evnt2">
+                        <h3>牛牛農場</h3>
+                        <p>厚德農場在取之自然、順乎自然的開發原則下，盡其所能的保持原地形地貌與樹林生態，加上裝置藝術的創意點綴，豐富了牧場風光與特色。</p>
+                        <button type="button" class="btn">活動報名</button>
+                    </div>
+                </div>
+               
+                <div class="col-md-4 grid-left">
+                    <div class="event-box" href="#evnt3">
+                        <img src="img/event-pic2.jpg" alt="">
+                    </div>
+                    <div class="checkbox box2">
+                        <h2>Check!</h2>
+                        <p>03農民一日體驗</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row event-row">
+                <div class="col-md-6 grid-right">
+                    <div class="event-box box-right" href="#evnt2">
+                        <img src="img/event-pic3.jpg" alt="">
+                    </div>
+                    <div class="checkbox">
+                        <h2>Check!</h2>
+                        <p>02牛牛農場</p>
+                    </div>
+                </div>
+                <div class="col-md-6 grid-left">
+                    <div class="event-box box-left flex-center" href="#evnt3">
+                        <h3>農民一日體驗</h3>
+                        <p>土地是我們的母親，學習與自然共生，堅持不用除草劑，降低土地的汙染...<a href="#">查看更多</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="shop">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-2 flex-center">
+                    <button type="button" class="pd-btn" href="#tab1">蛋類</button>
+                </div>
+                <div class="col-2 flex-center">
+                    <button type="button" class="pd-btn" href="#tab2">肉類</button>
+                </div>
+                <div class="col-2 flex-center">
+                    <button type="button" class="pd-btn" href="#tab3">果茶</button>
+                </div>
+                <div class="col-2 flex-center">
+                    <button type="button" class="pd-btn" href="#tab4">蔬菜</button>
+                </div>
+                <div class="col-2 flex-center">
+                    <button type="button" class="pd-btn" href="#tab5">奶類</button>
+                </div>
+                <div class="col-2 flex-center">
+                    <button type="button" class="pd-btn" href="#tab6">水果</button>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid h-100">
+           
+            <div class="row shop-main flex-center" id="app">
+                <div id="product-list">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th colspan="5">購物清單</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="table-title">
+                                <td>品項</td>
+                                <td>數量</td>
+                                <td>單價</td>
+                                <td>小計</td>
+                                <td></td>
+                            </tr>
+                            <tr v-for="product in productsInCart">
+                                <td>{{product.name}}</td>
+                                <td>{{product.amount}}</td>
+                                <td>{{product.price}}</td>
+                                <td>{{product.sum}}</td>
+                                <td>
+                                    <button class="button-del" @click="remove(product)">×</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td></td>
+                                <td colspan="3">Total <span class="total-price">$ {{total}}</span></td>
+                                <td></td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                    <button class="checkout btn" id="checkout">前往付款</button>
+                    <input type="button" class="btn close2" value="關閉">
+                </div>
+                <div class="col-md-9 pt-3 tab" :id="[product.idName]" v-for="product in products">
+                    <div class="row h-100">
+                        <div class="col-sm-5 grid-center pd-imgbx">
+                            <img :src="product.thumb" class="pd-img">
+                        </div>
+                        <div class="col-sm-7 pl-5 pr-5 grid-center">
+                            <div>
+                                <h2 class="mb-4">{{product.name}}</h2>
+                                <p>{{product.content}}</p>
+                            </div>
+                            <div>
+                                <div class="price-box">
+                                    <h3>價格：{{product.price}}</h3>
+                                    <img :src="product.slogan" id="shop-slogan">
+                                </div>
+                                <div class="action-box">
+                                    <div>
+                                        <button class="round" @click="minusOne(product)">-</button>
+                                        <span>{{product.amountShow}}</span>
+                                        <button class="round" @click="addOne(product)">+</button>
+                                    </div>
+                                    <button @click="addToCart(product)" class="btn add">加入購物車</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+
+                <div class="col-md-3 grid-left" id="timeline">
+                    <ul>
+                        <li>選擇商品</li>
+                        <li>確認數量金額</li>
+                        <li>確認下單</li>
+                        <li>賣家接單</li>
+                        <li>物流運送</li>
+                        <li>到達後核對商品</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="pd-show">
+                    <a href="#shop">
+                        <div class="block" style="left: 283px">
+                            <img href="#tab1" src="img/product1.png" alt="">
+                        </div>
+                        <div class="block" style="left: 383px">
+                            <img href="#tab2" src="img/product2.png" alt="">
+                        </div>
+                        <div class="block" style="left: 483px">
+                            <img href="#tab3" src="img/product3.png" alt="">
+                        </div>
+                        <div class="block" style="left: 583px">
+                            <img href="#tab4" src="img/product4.png" alt="">
+                        </div>
+                        <div class="block" style="left: 683px">
+                            <img href="#tab5" src="img/product5.png" alt="">
+                        </div>
+                        <div class="block" style="left: 83px">
+                            <img href="#tab6" src="img/product6.png" alt="">
+                        </div>
+                        <div class="block" style="left: 183px">
+                            <img href="#tab1" src="img/product1.png" alt="">
+                        </div>
+                        <div class="block" style="left: 283px">
+                            <img href="#tab2" src="img/product2.png" alt="">
+                        </div>
+                        <div class="block" style="left: 483px">
+                            <img href="#tab3" src="img/product3.png" alt="">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container_fluid h-100">
+            <div class="row h-100">
+                <div class="col-lg-6 flex-center mb-3">
+                    <form class="contact-box">
+                        <div class="form-group">
+                            <h2 class="pb-4">聯絡我們</h2>
+                        </div>
+                        <div class="form-group">
+                            <label for="usersname">姓名</label>
+							<input type="text" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">email</label>
+                            <input type="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phonenum">手機號碼</label>
+                            <input type="text" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="suggest">意見回饋</label>
+                            <textarea class="form-control" id="suggest" rows="5" required></textarea>
+                        </div>
+                        <button type="reset" class="btn contact-btn d-flex mx-auto">送出</button>
+                    </form>
+                </div>
+                <div class="col-lg-6 flex-center">
+                    <form class="contact-box box2">
+                        <h2 class="pb-4">有獎徵答</h2>
+						<h4>全對有機會獲得農場優惠券</h4>
+						<div class="form-group">
+							<label for="inputState">我們的農場名稱是?</label>
+							<select id="inputState" class="form-control">
+								<option selected>後德自然農場</option>
+								<option>牛牛自然農場</option>
+								<option>厚德自然農場</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label for="inputState">厚德農場取名的由來是?</label>
+							<select id="inputState" class="form-control">
+								<option selected>老闆名字</option>
+								<option>心血來潮</option>
+								<option>厚德在務的啟發</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label for="inputState">我們的主要產業是?</label>
+							<select id="inputState" class="form-control">
+								<option selected>漁業</option>
+								<option>茶葉</option>
+								<option>農業</option>
+							</select>
+						</div>	
+						<div class="form-group">
+							<label for="inputState">我們的理念?</label>
+							<select id="inputState" class="form-control">
+								<option selected>僅供旅遊</option>
+								<option>打造無毒無濃的農場</option>
+								<option>沒有理念</option>
+							</select>
+						</div>
+							<button type="reset" id="contact-btn2" class="btn contact-btn d-flex mx-auto">送出</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+		<div class="container mb-0">
+			<div class="row">
+				<div class="col-sm-4">
+					<h3>快速導覽</h3>
+					<p><a href="#home">首頁</a></p>
+					<p><a href="#about">關於我們</a></p>
+					<p><a href="#event">精彩活動</a></p>
+					<p><a href="#shop">商品一覽</a></p>
+					<p><a href="#contact">聯絡我們</a></p>
+				</div>
+				<div class="col-sm-4">
+						<h3>店家資訊</h3>
+						<p><span><img class="footer-icon" src="img/phone.png" alt=""></span>客服專線: 02 12345678</p>
+						<p><span><img class="footer-icon" src="img/mail.png" alt=""></span> 電子信箱: a1234@gmail.com</p>
+						<p><span><img class="footer-icon" src="img/id.png" alt=""></span>	客服ID: a001</p>
+				</div>
+				<div class="col-sm-4">
+					<h3>訂閱電子報</h3>
+					<p>追蹤我們 獲得最新資訊</p>
+					<span>
+						<input type="text" required>
+						<button id="read">訂閱</button>
+					</span>
+					<p>
+						<span><img class="social footer-social" src="img/fb.png" alt=""></span>
+						<span><img class="social footer-social" src="img/line.png" alt=""></span>
+						<span><img class="social footer-social" src="img/gmail.png" alt=""></span>
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+    <form id="log" class="log-form">
+		<div class="form-imgbx">
+			<img src="img/logimg.jpg" alt="">
+		</div>
+		<div class="form-text pt-5">
+			<h3>會員登入</h3>
+			<label for="num">帳號</label>
+			<input type="text" id="num" placeholder="輸入帳號" required><br>
+			<label for="password">密碼</label>
+			<input type="text" id="password" placeholder="輸入密碼" required>
+			<p>使用其他方式登入</p>
+			<div class="form-group flex-around">	
+				<span><img class="social" src="img/fb.png" alt=""></span>
+				<span><img class="social" src="img/line.png" alt=""></span>
+				<span><img class="social" src="img/gmail.png" alt=""></span>
+			</div>			
+			<p>還沒有帳號?<a class="reg" href="#">註冊</a></p>
+			<div class="form-group flex-around">	
+				<input type="submit" class="btn login log-chk" value="登入">
+				<input type="reset" class="btn close2" value="關閉">
+			</div>			
+		</div>
+    </form>
+    <form id="reg" class="log-form">
+		<div class="form-imgbx">
+			<img src="img/regimg.jpg" alt="">
+		</div>
+		<div class="form-text">
+			<h3>會員註冊</h3>
+			<label for="name">姓名</label>
+			<input type="text" id="name" placeholder="輸入姓名" required><br>
+			<label for="email">Gmail</label>
+			<input type="text" id="email" placeholder="輸入電子信箱" required><br>
+			<label for="num">帳號</label>
+			<input type="text" id="num" placeholder="輸入帳號" required><br>
+			<label for="password">密碼</label>
+			<input type="text" id="password" placeholder="輸入密碼" required>	
+			<p>已有帳號?<a class="login" href="#">登入</a></p>
+			<div class="form-group flex-around">	
+				<input type="submit" class="btn log-chk" value="登入">
+				<input type="reset" class="btn close2" value="關閉">
+			</div>			
+		</div>
+    </form>
+    <form id="join" class="log-form">
+		<div class="form-imgbx">
+			<img src="img/join.jpg" alt="">
+		</div>
+		<div class="form-text">
+			<h3>活動報名</h3>
+			<label for="name">姓名</label>
+			<input type="text" id="name" placeholder="輸入姓名" required><br>
+			<label for="email">Gmail</label>
+			<input type="text" id="email" placeholder="輸入電子信箱" required><br>
+			<label>人數</label>
+			<input type="number" min="0" max="10" value="人數">
+			<label>活動</label>
+			<select>
+				<option value="">水果摘摘樂</option>
+				<option value="">牛牛農場</option>
+				<option value="">農民一日體驗</option>
+			</select>
+			<p>快速登入</p>
+			<label for="num">帳號</label>
+			<input type="text" id="num" placeholder="輸入帳號" required><br>
+			<label for="password">密碼</label>
+			<input type="text" id="password" placeholder="輸入密碼" required>
+			<div class="form-group flex-around pt-3">
+				<input type="submit" class="btn log-chk" value="報名">
+				<input type="reset" class="btn close2" value="關閉">
+			</div>			
+		</div>
+    </form>
+    
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/bootstrap-4.0.0.js"></script>
+    <script src="js/vue.js"></script>
+    <script src="js/all.js"></script>
+    <script src="js/cart.js"></script>
+</body>
+</html>
